@@ -1,0 +1,20 @@
+{
+  "name": "hljs-gutenberg-block",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "wp-scripts build ",
+    "build:custom": "wp-scripts build src/hljs.js --output-path=inc",
+    "start": "wp-scripts start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@wordpress/scripts": "^25.4.0"
+  },
+  "dependencies": {
+    "highlight.js": "^11.7.0"
+  }
+}
